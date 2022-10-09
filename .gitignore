@@ -1,2 +1,3 @@
-/_MACOSX
-/user_data/misc
+__MACOSX
+cluster/user_data/misc/
+.DS_Store
