@@ -1,7 +1,7 @@
 version: "3.3"
 services:
   master:
-    image: nunescarol/hadoop-spark-master:1.0.0 
+    image: nunescarol/hadoop-spark-master:1.0.1
     container_name: master
     command: sh -c "./user_data/admin/fiatlux.sh"
     hostname: master
@@ -22,7 +22,7 @@ services:
     environment:
       - "SPARK_LOCAL_IP=master"
   worker-1:
-    image: nunescarol/hadoop-spark-master:1.0.0 
+    image: nunescarol/hadoop-spark-master:1.0.1
     container_name: worker-1
     hostname: worker-1
     tty: true
@@ -37,7 +37,7 @@ services:
       spark-network:
         ipv4_address: 10.5.0.3
   worker-2:
-    image: nunescarol/hadoop-spark-master:1.0.0 
+    image: nunescarol/hadoop-spark-master:1.0.1 
     container_name: worker-2
     hostname: worker-2
     tty: true
@@ -52,7 +52,7 @@ services:
       spark-network:
         ipv4_address: 10.5.0.4
   worker-3:
-    image: nunescarol/hadoop-spark-master:1.0.0 
+    image: nunescarol/hadoop-spark-master:1.0.1
     container_name: worker-3
     hostname: worker-3
     tty: true
