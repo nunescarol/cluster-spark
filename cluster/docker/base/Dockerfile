@@ -49,7 +49,7 @@ ENV PATH $PATH:$JAVA_HOME/bin:$HADOOP_HOME/bin:$SPARK_HOME/bin:$SPARK_HOME/pytho
 
 # Ajustes e instalação dos componentes do cluster
 RUN apk upgrade \
-    && apk add bash openjdk11 wget net-tools htop lsof nano openssh-server curl \
+    && apk add bash openjdk11 wget net-tools htop lsof nano openssh-server openssh curl \
     #&&  pip install jupyterlab notebook \
     # && python3 -m pip install -r requirements.txt \
     # && python3 -m pip install dask[bag] --upgrade \
