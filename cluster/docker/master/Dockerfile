@@ -1,4 +1,4 @@
-FROM nunescarol/hadoop-spark-base:1.0.2
+FROM nunescarol/hadoop-spark-base:1.0.3
 
 ENV SPARK_MASTER_PORT 7077
 ENV SPARK_MASTER_WEBUI_PORT 8080

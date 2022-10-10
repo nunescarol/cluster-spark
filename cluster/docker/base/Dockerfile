@@ -10,7 +10,7 @@ ENV HDFS_SECONDARYNAMENODE_USER="root"
 ENV YARN_RESOURCEMANAGER_USER="root"
 ENV YARN_NODEMANAGER_USER="root"
 ENV YARN_HOME=$HADOOP_HOME
-ENV JAVA_HOME=/usr/lib/jvm/java-11-openjdk/bin/java
+ENV JAVA_HOME=/usr/lib/jvm/java-11-openjdk/
 ENV PATH=$PATH:$JAVA_HOME/bin
 
 # Variaveis de ambiente do Hadoop

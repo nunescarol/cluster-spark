@@ -1,5 +1,4 @@
-FROM nunescarol/hadoop-spark-base:1.0.2
-
+FROM nunescarol/hadoop-spark-base:1.0.3
 ENV SPARK_WORKER_WEBUI_PORT 8081
 ENV SPARK_MASTER "spark://master:7077"
 ENV SPARK_WORKER_LOG /spark/logs
