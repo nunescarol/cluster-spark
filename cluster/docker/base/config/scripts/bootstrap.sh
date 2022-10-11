@@ -3,7 +3,7 @@
 # Trecho que executará no master e nos workers. 
 # Necesário para funcionamento do HDFS e para 
 # comunicação dos containers/nodes.
-/etc/init.d/ssh start
+/etc/init.d/sshd start
 
 # Trecho que executará apenas no master.
 if [[ $HOSTNAME = master ]]; then
